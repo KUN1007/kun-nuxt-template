@@ -1,3 +1,10 @@
 {
-  "kun": "KUN IS THE CUTEST!"
+  "kun": "KUN IS THE CUTEST!",
+  "template": "A mini starter for Nuxt. Just for concise and moe!",
+  "remake": "One-click Reincarnation to Loli",
+  "language": {
+    "language": "Language",
+    "en-us": "English",
+    "zh-cn": "简体中文"
+  }
 }

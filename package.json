@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "kun-nuxt-template",
   "private": true,
   "type": "module",
   "scripts": {
@@ -22,6 +22,7 @@
     "@pinia/nuxt": "^0.5.1",
     "@types/js-cookie": "^3.0.6",
     "@types/node": "^20.12.7",
+    "dayjs": "^1.11.12",
     "dayjs-nuxt": "^2.1.9",
     "eslint": "^8.57.0",
     "nuxt": "^3.12.4",
@@ -29,7 +30,8 @@
     "nuxt-typed-router": "^3.6.3",
     "prettier": "^3.2.5",
     "sass": "^1.75.0",
-    "vue": "latest"
+    "vue": "latest",
+    "vue-router": "^4.4.3"
   },
   "dependencies": {
     "nuxt": "^3.12.4",

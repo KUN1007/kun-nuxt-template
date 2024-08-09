@@ -45,6 +45,9 @@ importers:
       '@types/node':
         specifier: ^20.12.7
         version: 20.14.14
+      dayjs:
+        specifier: ^1.11.12
+        version: 1.11.12
       dayjs-nuxt:
         specifier: ^2.1.9
         version: 2.1.9(magicast@0.3.4)(rollup@4.20.0)
@@ -63,6 +66,9 @@ importers:
       sass:
         specifier: ^1.75.0
         version: 1.77.8
+      vue-router:
+        specifier: ^4.4.3
+        version: 4.4.3(vue@3.4.37(typescript@5.5.4))
 
 packages:
 

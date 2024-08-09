@@ -1,3 +1,10 @@
 {
-  "鲲": "鲲最可爱!"
+  "kun": "鲲最可爱!",
+  "template": "一个小只的 Nuxt starter, 只为简洁与萌!",
+  "remake": "一键转生为萝莉",
+  "language": {
+    "language": "语言",
+    "en-us": "English",
+    "zh-cn": "简体中文"
+  }
 }
