@@ -1,0 +1,100 @@
+/* --------------------------------------------------------------
+   reset.css
+   * Resets default browser CSS.
+-------------------------------------------------------------- */
+
+:root {
+  --font-family: 'system-ui';
+  --kun-background-blur: 0px;
+}
+
+/* Reset default CSS styles for all elements */
+* {
+  box-sizing: border-box;
+
+  &::selection {
+    background-color: var(
+      --kungalgame-trans-blue-2
+    ); /* Background color of selected text */
+    color: var(--kungalgame-blue-5); /* Text color of selected text */
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+@-moz-document url-prefix() {
+  * {
+    scrollbar-width: none;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--kungalgame-blue-5);
+  border-radius: 5px;
+}
+
+@media (max-width: 700px) {
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+
+  * {
+    scrollbar-color: transparent;
+  }
+}
+
+/* Font */
+html {
+  font-family: var(--font-family);
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h1,
+h2 {
+  &::before {
+    content: '#';
+    color: var(--kungalgame-blue-5);
+    margin-right: 10px;
+  }
+}
+
+/* Ensure that button and select elements inherit the font family */
+button,
+select {
+  font-family: inherit;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+}

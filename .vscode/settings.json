@@ -1,3 +1,9 @@
 {
-  "cSpell.words": ["nuxt"]
+  "cSpell.words": [
+    "composables",
+    "kungalgame",
+    "nuxt",
+    "persistedstate",
+    "pinia"
+  ]
 }
