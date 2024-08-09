@@ -2,7 +2,7 @@
 
 A mini starter for Nuxt. Just for concise and moe!
 
-![docs/banner.png]
+![](docs/banner.png)
 
 ## tech-stack
 
