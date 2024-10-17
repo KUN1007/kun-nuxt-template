@@ -8,7 +8,8 @@
     "nuxt",
     "Parens",
     "persistedstate",
-    "pinia"
+    "pinia",
+    "typecheck"
   ],
   "i18n-ally.localesPaths": ["language"]
 }
