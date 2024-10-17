@@ -9,10 +9,10 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/image',
     '@nuxt/icon',
+    '@nuxt/eslint',
     '@nuxtjs/i18n',
     '@nuxtjs/color-mode',
     '@nuxtjs/sitemap',
-    'nuxt-typed-router',
     'nuxt-schema-org',
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
@@ -28,6 +28,7 @@ export default defineNuxtConfig({
     css: {
       preprocessorOptions: {
         scss: {
+          api: 'modern-compiler',
           additionalData: '@use "~/assets/css/mixins.scss" as *;'
         }
       }
@@ -36,6 +37,13 @@ export default defineNuxtConfig({
       drop: ['console', 'debugger']
     }
   },
+
+  eslint: {
+    config: {
+      stylistic: false
+    }
+  },
+
   piniaPersistedstate: {
     cookieOptions: {
       maxAge: 60 * 60 * 24 * 7,
@@ -47,12 +55,12 @@ export default defineNuxtConfig({
     locales: [
       {
         code: 'en-us',
-        iso: 'en-US',
+        language: 'en-US',
         file: 'en.json'
       },
       {
         code: 'zh-cn',
-        iso: 'zh-CN',
+        language: 'zh-CN',
         file: 'zh-CN.json'
       }
     ],
