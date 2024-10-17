@@ -4,7 +4,18 @@ A mini starter for Nuxt. Just for concise and moe!
 
 ![](docs/banner.png)
 
-## tech-stack
+
+## How to use
+
+Click `Use this template` to create your own repository, clone your repository, open it and input
+
+``` bash
+pnpm i && pnpm dev
+```
+
+to your terminal.
+
+## Tech-stack
 
 ``` json
     "@nuxt/icon": "^1.4.5",
@@ -25,10 +36,10 @@ A mini starter for Nuxt. Just for concise and moe!
     "nuxt-typed-router": "^3.6.3",
     "prettier": "^3.2.5",
     "sass": "^1.75.0",
-    "vue": "latest",
+    "vue": "^3.4.23",
     "vue-router": "^4.4.3"
 ```
 
-## explore more...
+## Explore more...
 
 https://github.com/KUN1007/kun-galgame-nuxt3

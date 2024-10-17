@@ -8,5 +8,6 @@
     "Parens",
     "persistedstate",
     "pinia"
-  ]
+  ],
+  "i18n-ally.localesPaths": ["language"]
 }
